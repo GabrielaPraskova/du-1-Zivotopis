@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: large;
+    margin: 20px 250px;
+}
+
+header{
+    background-color: lavender;
+    overflow: auto;
+}
+
+
+img{
+    height: 300px;
+    padding-left: 250px;
+    padding-right: 40px;
+    padding-bottom: 75px;
+    float: left;
+}
+
+h1{
+    color: white;
+    margin-top:10px;
+    margin-right:10px;
+    font-size: 50px;   
+}
+
+.predstaveni{
+    font-size: small;
+}
+
+
+a:hover{
+    background-color: lavender;
+}
+
+a{
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.rightbox{
+    width: 50%;
+}
+
+.obsah{
+    display: flex;
+}
+
+.leftbox{
+    width: 50%;
+}
+
+
+footer{
+    background-color: lavender;
+    padding: 10px;
+    text-align: center;
+}
